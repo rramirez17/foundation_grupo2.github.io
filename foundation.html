@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css" integrity="sha512-dMUQinc1gbNb95AFtKtP4q/g56T8r9oDxlWy0hrHyzfUbMq/vQztAqaR/FDY/bY0R1Ikc30aq94jyQH2Ix++ug==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation-prototype.min.css" integrity="sha512-rTvrQPQ4IQdQ2Ofv0DXNFCf2O+M9DkfozuYMHOpCJLwmwj+6boSqWRno9j94fp+ZyHAdIDTehr0KlQ0XXK5J4g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+    
+
+    <script src="https://kit.fontawesome.com/f0dfed3350.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f0dfed3350.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js" integrity="sha512-9cXmvmK1gIDw3Tol6Xg/1SUls/CvBMgedu1aDjT519sQzy7jk+LoezyQqlzClW2LgXww4xEyuqtofg7PtWteLQ==" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="favicon.ico" type="icon">
+    <title class="Titulo_principal"> Ejemplo Foundation | Grupo 2 </title>
+</head>
+<body class="margin-horizontal-0">
+    <header>
+
+        <nav class="top-bar" data-responsive-toggle="nav-bar" data-hide-for="medium">
+            <div class="top-bar-left">
+                <ul class="menu">
+                    <li><button class="clear button" type="button" data-toggle="nav-bar"><i class="fas fa-bars"></i></button></li>
+                    <li class="menu-text"><h5>Ejemplo Foundation</h5></li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu">
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="top-bar padding-horizontal-3" id="nav-bar">
+            <div class="top-bar-left show-for-medium">
+                <ul class="menu">
+                    <li class="menu-text"><h2>CV Maker</h2></li>
+                </ul>
+            </div>
+            <div class="top-bar-right">
+                <ul class="menu vertical hide-for-medium">
+                    <li><a href="foundation.html">Inicio</a></li>
+                    <li><a href="https://www.disneyplus.com/en-gb/home">Disney+</a></li>
+                    <li><a href="https://careers.google.com">Google</a></li>
+                    <li><a href="https://www.apple.com/careers/">Apple</a></li>
+                    <li><a href="https://careers.microsoft.com">Microsoft</a></li>
+                </ul>
+                <ul class="menu show-for-medium">
+                    <li><a href="foundation.html">Inicio</a></li>
+                    <li><a href="https://www.disneyplus.com/en-gb/home">Disney+</a></li>
+                    <li><a href="https://careers.google.com">Google</a></li>
+                    <li><a href="https://www.apple.com/careers/">Apple</a></li>
+                    <li><a href="https://careers.microsoft.com">Microsoft</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="grid-x grid-margin-y">
+        <section class="cell">
+            <div class="orbit" role="region" aria-label="Placeholder" data-orbit>
+                <div class="orbit-wrapper">
+                    <div class="orbit-control">
+                        <button class="orbit-previous">&#9664;&#xFE0E;</button>
+                        <button class="orbit-next">&#9654;&#xFE0E;</button>
+                    </div>
+                    <div class="orbit-container">
+                        <li class="is-active orbit-slide ">
+                            <figure class="orbit-figure">
+                                <img src="placeholder1.png" alt="">
+                                <figcaption class="orbit-caption show-for-medium text-center" >Creamos CVS de calidad de manera sencilla</figcaption>
+                            </figure>
+                        </li>
+                        <li class="is-active orbit-slide">
+                            <figure class="orbit-figure">
+                                <img src="placeholder2.png" alt="">
+                                <figcaption class="orbit-caption show-for-medium text-center">Creamos los mejores CVS de Panamá</figcaption>
+                            </figure>
+                        </li>
+                        <li class="is-active orbit-slide">
+                            <figure class="orbit-figure">
+                                <img src="placeholder3.png" alt="">
+                                <figcaption class="orbit-caption show-for-medium text-center">Únete al club</figcaption>
+                            </figure>
+                        </li>
+                    </div>
+                    <nav class="orbit-bullets show-for-medium">
+                        <button class="is-active" data-slide="0"></button>
+                        <button data-slide="1"></button>
+                        <button data-slide="2"></button>
+                        
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="cell align-center text-center row-x grid-padding-y padding-top-3" style="background:url(https://via.placeholder.com/1920x400?text=.); background-size:cover; background-position: center;">
+            <div class="cell small-2 margin-vertical-2">
+                <h3 class="font-bold">Crea tu CV Ya!</h3>
+                <p>Todo por hacer un currículum tan asombroso como tú, de manera fácil y rápida </p>
+                <a class="button hollow large" data-open="form-modal"><i class="fas fa-pen"></i> Crear mi CV</a>
+            </div>
+        </section>
+
+        <section class="cell margin-top-2 grid-x align-center show-for-medium">
+            <div class="margin-bottom-2 cell">
+                <h2 class="text-center font-bold">Gracias por Consultarnos</h2>
+                <hr class="width-25 margin-top-0">
+            </div>
+        </section>
+
+    </main>
+    <footer class="title-bar grid-x grid-padding-y align-center margin-top-2">
+        <div class="cell text-center padding-top-2">
+            <h3>Consulta nuestros links</h3>
+        </div>
+        <div class="cell menu vertical">
+            <ul class="menu text-center align-center">
+                <li><a href="foundation.html">Inicio</a></li>
+                <li><a href="https://careers.google.com">Google</a></li>
+                <li><a href="https://www.apple.com/careers/">Apple</a></li>
+                <li><a href="https://careers.microsoft.com">Microsoft</a></li>
+                <li><a href="https://www.disneyplus.com/en-gb/home">Disney+</a></li>
+            </ul>
+            <ul class="menu text-center align-center">
+                <li><a href="">Terms</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="cell padding-vertical-0 margin-vertical-0">
+            <hr>
+        </div>
+        <div class="cell grid-x padding-vertical-0">
+            <div class="cell auto font-bold font-italic">
+                <p>Copyright @ 2021 </p>
+            </div>
+            <div class="cell auto">
+                <div class="button-group align-right">
+                    <a href="" class="button secondary"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="button secondary"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="button secondary"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="reveal" id="form-modal" data-reveal>
+        <div class="grid-x grid-padding-x align-center">
+            <fieldset>
+            <form action="Lab1.html">
+            <div class="cell">
+                <h3>Hablanos un poco de tí</h3>
+                <p>Comenzaremos a armar tu CV con la información que nos brindes</p>
+            </div>
+            <div class="form">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell auto">
+                        <label>Nombre Completo</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="cell auto">
+                        <label>Correo Electrónico</label>
+                        <input type="email">
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell auto">
+                        <label>Fecha de Nacimiento</label>
+                        <input type="date">
+                    </div>
+                    <div class="cell auto">
+                        <label>Dirección</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell">
+                        <label>Resumen Ejecutivo</label>
+                        <textarea name="" id="" cols="10" rows="3"></textarea>
+                    </div>
+                    <div class="cell">
+                        <label>Experiencia</label>
+                        <textarea name="" id="" cols="40" rows="3"></textarea>
+                    </div>
+                    <div class="cell auto">
+                        <label>Educación</label>
+                        <textarea name="" id="" cols="20" rows="5"></textarea>
+                    </div>
+                    <div class="cell auto">
+                        <label>Conocimientos</label>
+                        <textarea name="" id="" cols="20" rows="5"></textarea>
+                    </div>
+                    <div class="cell auto">
+                        <label>Referencias</label>
+                        <textarea name="" id="" cols="20" rows="5"></textarea>
+                    </div>
+                </div>
+                
+            
+                    <div class="cell ">
+                        <button class="button primary">Register</button>
+                    </div>
+                </div>
+            </div>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </fieldset>
+        </div>
+    </div>
+
+<script>
+  $(document).ready(() => {
+            $(document).foundation();
+         })
+</script>
+
+</body>
+</html>
